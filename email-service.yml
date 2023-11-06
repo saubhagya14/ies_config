@@ -1,0 +1,28 @@
+spring:
+  application:
+    name: email-service
+  boot:
+    admin:
+      client: 
+        url: http://localhost:1200/
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: patrasaubhagya146@gmail.com
+    password: pvnq ccjq nwmv ucvw
+    properties:
+      mail:
+        smtp:
+          starttls: 
+            enable: true
+          auth: true
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+      
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
