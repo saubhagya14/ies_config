@@ -1,6 +1,10 @@
 spring:
   application:
     name: DB-SERVICE
+  boot:
+    admin:
+      client: 
+        url: http://localhost:1200/
   jpa:
     hibernate:
       ddl-auto: update
