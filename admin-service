@@ -1,6 +1,6 @@
 spring:
   application:
-    name: admin-SERVICE
+    name: admin-service
   boot:
     admin:
       client: 
